@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#head{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+#cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+}
+
+#base{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+    height: 70%;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+#base h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+}
+
+#base hr{
+    border-color: #000;
+    margin: 20px 0;
+}
+
+#base form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#base input{
+    width: 80%;
+    height: 25px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#base input:hover{
+    font-weight: 900;
+    background-color: #ff9f9f5b;
+    color: #fff;
+}
+
+#base button{
+    margin-top: 10%;
+    padding: 10px;
+    width: 35%;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    font-size: 24px;
+}
+
+#base button:hover{
+    background-color: rgb(251, 99, 43);
+    font-weight: 800;
+}

@@ -25,7 +25,6 @@ function validate()
     {
         if(user == users[i])
         {
-            console.log(i);
             result = 0;
             break;
         }

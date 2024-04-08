@@ -7,6 +7,7 @@ ECHO NETWORK INFO
 
 ECHO ============================
 
+ipconfig
 
 git fetch
 
